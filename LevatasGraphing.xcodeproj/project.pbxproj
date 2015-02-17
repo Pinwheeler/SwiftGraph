@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35284FA11A93918A0038F9E3 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35284FA01A93918A0038F9E3 /* DemoViewController.swift */; };
+		35284FA21A93918A0038F9E3 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35284FA01A93918A0038F9E3 /* DemoViewController.swift */; };
+		35284FA41A93A8D20038F9E3 /* BarGraphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35284FA31A93A8D20038F9E3 /* BarGraphUITests.swift */; };
 		35C4F7391A9258C1001BE87A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4F7381A9258C1001BE87A /* AppDelegate.swift */; };
 		35C4F73B1A9258C1001BE87A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4F73A1A9258C1001BE87A /* ViewController.swift */; };
 		35C4F73E1A9258C1001BE87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C4F73C1A9258C1001BE87A /* Main.storyboard */; };
 		35C4F7401A9258C1001BE87A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C4F73F1A9258C1001BE87A /* Images.xcassets */; };
 		35C4F7431A9258C1001BE87A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C4F7411A9258C1001BE87A /* LaunchScreen.xib */; };
-		35C4F74F1A9258C1001BE87A /* LevatasGraphingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4F74E1A9258C1001BE87A /* LevatasGraphingTests.swift */; };
+		35C4F7591A925A43001BE87A /* BasicGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4F7581A925A43001BE87A /* BasicGraphTests.swift */; };
+		35C4F75B1A925A9C001BE87A /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4F75A1A925A9C001BE87A /* BarGraphView.swift */; };
+		35C4F75C1A925A9C001BE87A /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4F75A1A925A9C001BE87A /* BarGraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35284FA01A93918A0038F9E3 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		35284FA31A93A8D20038F9E3 /* BarGraphUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphUITests.swift; sourceTree = "<group>"; };
 		35C4F7331A9258C0001BE87A /* LevatasGraphing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevatasGraphing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C4F7371A9258C1001BE87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35C4F7381A9258C1001BE87A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +42,8 @@
 		35C4F7421A9258C1001BE87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		35C4F7481A9258C1001BE87A /* LevatasGraphingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevatasGraphingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C4F74D1A9258C1001BE87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35C4F74E1A9258C1001BE87A /* LevatasGraphingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevatasGraphingTests.swift; sourceTree = "<group>"; };
+		35C4F7581A925A43001BE87A /* BasicGraphTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicGraphTests.swift; sourceTree = "<group>"; };
+		35C4F75A1A925A9C001BE87A /* BarGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +88,12 @@
 				35C4F7381A9258C1001BE87A /* AppDelegate.swift */,
 				35C4F73A1A9258C1001BE87A /* ViewController.swift */,
 				35C4F73C1A9258C1001BE87A /* Main.storyboard */,
+				35284FA31A93A8D20038F9E3 /* BarGraphUITests.swift */,
 				35C4F73F1A9258C1001BE87A /* Images.xcassets */,
 				35C4F7411A9258C1001BE87A /* LaunchScreen.xib */,
 				35C4F7361A9258C1001BE87A /* Supporting Files */,
+				35C4F75A1A925A9C001BE87A /* BarGraphView.swift */,
+				35284FA01A93918A0038F9E3 /* DemoViewController.swift */,
 			);
 			path = LevatasGraphing;
 			sourceTree = "<group>";
@@ -98,8 +109,8 @@
 		35C4F74B1A9258C1001BE87A /* LevatasGraphingTests */ = {
 			isa = PBXGroup;
 			children = (
-				35C4F74E1A9258C1001BE87A /* LevatasGraphingTests.swift */,
 				35C4F74C1A9258C1001BE87A /* Supporting Files */,
+				35C4F7581A925A43001BE87A /* BasicGraphTests.swift */,
 			);
 			path = LevatasGraphingTests;
 			sourceTree = "<group>";
@@ -212,8 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35C4F75B1A925A9C001BE87A /* BarGraphView.swift in Sources */,
 				35C4F73B1A9258C1001BE87A /* ViewController.swift in Sources */,
 				35C4F7391A9258C1001BE87A /* AppDelegate.swift in Sources */,
+				35284FA11A93918A0038F9E3 /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35C4F74F1A9258C1001BE87A /* LevatasGraphingTests.swift in Sources */,
+				35284FA41A93A8D20038F9E3 /* BarGraphUITests.swift in Sources */,
+				35284FA21A93918A0038F9E3 /* DemoViewController.swift in Sources */,
+				35C4F7591A925A43001BE87A /* BasicGraphTests.swift in Sources */,
+				35C4F75C1A925A9C001BE87A /* BarGraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +423,7 @@
 				35C4F7541A9258C1001BE87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35C4F7551A9258C1001BE87A /* Build configuration list for PBXNativeTarget "LevatasGraphingTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +432,7 @@
 				35C4F7571A9258C1001BE87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
